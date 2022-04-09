@@ -1,6 +1,8 @@
 import os
 os.system('clear')
 
+os.system('xdg-opne https://www.facebook.com/profile.php?id=100079896095116')
+
 hhhhhh = '\33[1;31m'
 print(hhhhhh)
 print('╔═══════════════╗')
