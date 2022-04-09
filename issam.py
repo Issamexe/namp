@@ -1,7 +1,7 @@
 import os
 os.system('clear')
 
-os.system('xdg-opne https://www.facebook.com/profile.php?id=100079896095116')
+os.system('xdg-open https://www.facebook.com/profile.php?id=100079896095116')
 
 hhhhhh = '\33[1;31m'
 print(hhhhhh)
@@ -116,6 +116,6 @@ if nn == 'issam':
     if ll == '9':
         os.system('cd&&git clone https://github.com/karma9874/AndroRAT.git&&cd AndroRAT&&apt install openjdk-17&&pip install -r requirements.txt&&python3 androRAT.py')
     if ll == '10':
-        os.system('xdg-open https://www.facebook.com/ISSAM.RAHMOUNI.999')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100079896095116')
 else:
     print('\33[1;31m EROOR EROOR'*10000)
