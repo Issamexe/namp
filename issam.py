@@ -1,8 +1,6 @@
 import os
 os.system('clear')
 
-os.system('xdg-open https://www.facebook.com/ISSAM.RAHMOUNI.999')
-
 hhhhhh = '\33[1;31m'
 print(hhhhhh)
 print('╔═══════════════╗')
