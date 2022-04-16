@@ -68,7 +68,8 @@ if nn == 'issam':
     if ll == '3':
         os.system('cd&&cd $HOME&&pkg install wget&&wget https://raw.githubusercontent.com/Hax4us/Apkmod/master/setup.sh&&bash setup.sh&&apkmod')
     if ll == '4':
-        os.system('cd&&apt update && apt upgrade -y; apt install git -y; git clone https://github.com/remo7777/Termux-Metasploit; &&cd&&cd Termux-Metaspl*;bash setup;&&msfconsole')
+        os.system('cd&&apt update&&apt upgrade -y')
+        os.system('git clone https://github.com/remo7777/Termux-Metasploit; cd Termux-Metaspl*;bash setup;')
     if ll == '5':
         os.system('xdg-open https://dashboard.ngrok.com/user/signup')
     if ll == '6':
